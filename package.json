@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Typescript version of the clasic game Tic-Tac-Toe compatible for IE 11",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack"
+  },
+  "author": "Esteban Petliuk",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "10.2.4",
+    "ts-loader": "9.2.8",
+    "typescript": "4.6.2",
+    "webpack": "5.70.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4"
+  }
+}

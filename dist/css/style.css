@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Racer';
+    src: url('../fonts/RACER.TTF');
+}
+
+body {
+    background: repeating-linear-gradient(45deg, #000000 10%,#ffffff 11%) fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+canvas {
+    background: #cdcdcd;
+    margin: auto;
+    border-radius: 7px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 8px #000000;
+    outline: none;
+    user-select: none;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fontPreload {
+    font-family: 'Racer';
+}
+#adContainer {
+    
+      justify-content: center;
+      height: 100%;
+      display: flex;
+      align-items: center;
+  }
